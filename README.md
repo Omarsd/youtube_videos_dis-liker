@@ -48,7 +48,7 @@ All code is commented, so it is self-explanatory.
 
   - SCROLL_PAUSE_TIME
   
-    Integer. Pause time between scrolls. It uses this time to let the browser refresh everything in order to calculate if it has scrolled to the bottom of the page already. For me, 1 second.
+    Integer. Pause time between scrolls. It uses this time to let the browser refresh everything in order to calculate if it has scrolled to the bottom of the page already. For me is 1 second, but maybe you need more time. You will see when you use it.
   
 - LIKE_DISLIKE
 
