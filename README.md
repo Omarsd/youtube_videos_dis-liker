@@ -47,31 +47,33 @@ All code is commented, so it is self-explanatory.
 ## Inputs for the script
 
   - SCROLL_PAUSE_TIME
-  - 
+  
     Integer. Pause time between scrolls. It uses this time to let the browser refresh everything in order to calculate if it has scrolled to the bottom of the page already. For me, 1 second.
   
 - LIKE_DISLIKE
 
-  String. Either you want to like or dislike videos.
+    String. Either you want to like or dislike videos.
   
-- CHANNEL
+- CHANNEL_URL
 
-  String. Name of the channel you want to apply the algorithm. Keep in mind this name is the one that appears when you search for all uploaded videos of a channel. https://www.youtube.com/user/CHANNEL/videos
+    String. Url of the channel you want to apply the algorithm. Keep in mind this url is the one that appears when you search for all uploaded videos of a channel. https://www.youtube.com/user/CHANNEL/videos or https://www.youtube.com/channel/CHANNEL/videos
   
 - REPORT
 
-  String (yes or no). If you hit on Dislike, you will be asked if you want to report videos also.
+    String (yes or no). If you hit on Dislike, you will be asked if you want to report videos also.
   
 - THIS_APPLIES
 
-  String (yes or no). If you hit on Report, you will be asked if you wan to turn the flag on youtube's report that tells them to also check the description of the video, since there is something that they don't allow.
+    String (yes or no). If you hit on Report, you will be asked if you wan to turn the flag on youtube's report that tells them to also check the description of the video, since there is something that they don't allow.
   
 - CHROME_PROFILE_PATH
 
-  String. This is the path to your profile of Chrome. If you don't supply it, Selenium won't open Chrome with your Google account, so you won't be able to like or dislike videos. Use double slash (\\). In windows it is:
+    String. This is the path to your profile of Chrome. If you don't supply it, Selenium won't open Chrome with your Google account, so you won't be able to like or dislike videos. In windows it is:
 
-  C:\\Users\\YOUR_USER\\AppData\\Local\\Google\\Chrome\\User Data
-
+  ```
+  C:\Users\YOUR_USER\AppData\Local\Google\Chrome\User Data
+  ```
+  
 ## Things to have in mind
 
 - When it reports, it picks a random timestamp, a random category and subcategory (excepts "Infringes my rights", sinces you get redirected to another tab and I don't have time to implement it) and picks a line from "report_messages.txt" file. Lines of that file is what it writes into the report textbox. I created it using synonyms of words like "disgusting", whatever you place there, it will pick. You only need that file if you plan on report and it has to be placed in the same directory as the script.
