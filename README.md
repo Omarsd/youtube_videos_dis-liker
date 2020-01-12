@@ -76,6 +76,10 @@ All code is commented, so it is self-explanatory.
   
 ## Things to have in mind
 
+- You can't minimize Chrome while it is working. Honestly I don't know why, but I guess it is something from Selenium. Also I tried to run it in the background, but it stops mid-way. So when it opens a video mute it and place something on top, or leave it.
+
+- I recomend to use adblock if you want to dislike someone's channel. We wouldn't like to give revenue, would we? Also there is an extension called Audio Only Youtube for Chrome that prevents youtube from download, just the audio. That would ease your CPU and network while the script do its job.
+
 - When it reports, it picks a random timestamp, a random category and subcategory (excepts "Infringes my rights", sinces you get redirected to another tab and I don't have time to implement it) and picks a line from "report_messages.txt" file. Lines of that file is what it writes into the report textbox. I created it using synonyms of words like "disgusting", whatever you place there, it will pick. You only need that file if you plan on report and it has to be placed in the same directory as the script.
 
 - The method that scrolls to the bottom of the channel video section uses a wait time in seconds that is input into the program at the beginning of the execution. I found that 1 second is good for me, it could be more for you. The first time you open it, you will see if it reaches the bottom.
