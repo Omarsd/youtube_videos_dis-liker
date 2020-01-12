@@ -8,7 +8,7 @@ All code is commented, so it is self-explanatory.
 
 ## Setup
 
-1. Download Google Chrome
+1. **Download Google Chrome**
 
      *You can skip this step if you have it already.*
 
@@ -18,19 +18,19 @@ All code is commented, so it is self-explanatory.
 
      https://www.google.com/intl/en/chrome/
 
-2. Download Python
+2. **Download Python**
 
      This was tested using Python 3.8, although it should work in previous Python 3 versions.
 
      https://www.python.org/downloads/
 
- 3. Download Chromedriver 
+ 3. **Download Chromedriver** 
 
       ChromeDriver is a separate executable that Selenium WebDriver uses to control Chrome. The version you use depends on the version of your Google Chrome. So download the  version of ChromeDriver that match your version of Chrome and place it in the same folder as the script.
 
       https://chromedriver.chromium.org
 
-4. Installing Selenium
+4. **Installing Selenium**
 
      Install python's package selenium (library that manages every automatic process of the web) writing this command into cmd, powershell or terminal:
 
