@@ -26,7 +26,7 @@ All code is commented, so it is self-explanatory.
 
  3. **Download Chromedriver** 
 
-      ChromeDriver is a separate executable that Selenium WebDriver uses to control Chrome. The version you use depends on the version of your Google Chrome. So download the  version of ChromeDriver that match your version of Chrome and place it in the same folder as the script.
+      ChromeDriver is a separate executable that Selenium WebDriver uses to control Chrome. The version you use depends on the version of your Google Chrome. So download the version of ChromeDriver that match your version of Chrome and place it in the same folder as the script.
 
       https://chromedriver.chromium.org
 
@@ -78,7 +78,7 @@ All code is commented, so it is self-explanatory.
 
 - You can't minimize Chrome while it is working. Honestly I don't know why, but I guess it is something from Selenium. Also I tried to run it in the background, but it stops mid-way. So when it opens a video mute it and place something on top, or leave it.
 
-- I recomend to use adblock if you want to dislike someone's channel. We wouldn't like to give revenue, would we? Also there is an extension called Audio Only Youtube for Chrome that prevents youtube from download, just the audio. That would ease your CPU and network while the script do its job.
+- I recomend to use adblock if you want to dislike someone's channel. We wouldn't like to give revenue, would we? Also there is an extension called Audio Only Youtube for Chrome that prevents youtube from stream video, just the audio. That would ease your CPU and network while the script do its job.
 
 - When it reports, it picks a random timestamp, a random category and subcategory (excepts "Infringes my rights", sinces you get redirected to another tab and I don't have time to implement it) and picks a line from "report_messages.txt" file. Lines of that file is what it writes into the report textbox. I created it using synonyms of words like "disgusting", whatever you place there, it will pick. You only need that file if you plan on report and it has to be placed in the same directory as the script.
 
