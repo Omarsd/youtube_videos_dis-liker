@@ -2,9 +2,9 @@
 
 This script allows you to like or dislike all videos of a channel, and also report them. You can use it to support your favourite youtuber or screw a brand. Up to you! 
 
-	It is written on Python 3.8 and it uses Selenium.
+It is written on Python 3.8 and it uses Selenium.
 
-	All code is commented, so it is self-explanatory.
+All code is commented, so it is self-explanatory.
 
 ## Setup
 
